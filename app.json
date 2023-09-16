@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "pomodoro",
-    "slug": "pomodoro",
+    "slug": "project",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.e_dev.pomodoro"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7998a1c0-8c47-481c-ba76-5f670b20ddf1"
+      }
+    },
+    "owner": "e_dev"
   }
 }
