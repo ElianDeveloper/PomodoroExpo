@@ -1,4 +1,4 @@
-import { SafeAreaView, StyleSheet, Text, View, Platform } from "react-native";
+import { SafeAreaView, StyleSheet, Text, View, Platform, StatusBar } from "react-native";
 import { useEffect, useState } from "react";
 
 import Header from "./src/components/Header";
@@ -51,6 +51,7 @@ export default function App() {
         <Timer time={time} />
         <ButtonCustom isActive={isActive} handleStartStop={handleStartStop} />
       </View>
+      <StatusBar style="auto" />
     </SafeAreaView>
   );
 }
